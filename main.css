@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: blue; /*   */
+    width: 100%;
+    height: 70px;
+}
+
+body {
+    background-image:url(https://img.freepik.com/fotos-gratis/fundo-preto-antigo-textura-do-grunge-papel-de-parede-escuro-quadro-negro-quadro-negro-parede-da-sala_1258-28313.jpg?w=996&t=st=1680219776~exp=1680220376~hmac=f1dbf7a3525f810aa38f38770e141e4805257ab3e0eedd8237802159f2cc6dda);
+}
+
+.extra { /* conteudo dentro do cabeçalho (Imagem do logo e links)*/
+    justify-content: space-between;
+    display: flex;
+}
+
+header img { /* Imagem do cabeçalho (Logo da pagina) */
+    width: 300px;
+    height: 50px;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+header li a { /* Texto dos links (cadastro, games, atualização, lançamento) */
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+header li { /* Caixa com todos os links */
+    margin: 5px;
+    display: inline-block;
+    padding: 0 8px 0 0;
+    margin-top: 40px;
+}
+
+section img { /* Imagens dos Jogos */
+    height: 200px;
+    display: flex;
+    padding: 10px 0;
+    margin-top: 31px;
+}
+
+section .logo_jogo,
+.logo_jogo2 { /* caixa com imagem dos jogos */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.jogos .descrição_jogo{ /* Caixa com todas as descrição dos jogos */
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 0 0 20px 0;
+} 
+
+.descrição_jogo p { /* Textos da descrição dos jogos */
+    max-width: 200px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+body h1 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.index_body p {
+    color: white;
+    max-width: 600px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 380px;
+}
+
+.img_honor img,
+.img_honor2 img {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.img_honor,
+.img_honor2 {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 0;
+    color: white;
+    display: flex;
+}
+
+.img_honor h3,
+.img_honor2 h3 {
+    margin-top: 50px;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.img_honor p,
+.img_honor2 p {
+    padding: 20px;
+    margin-top: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Downloads */
+
+.img_down,
+.img_down2 {
+    padding: 5px;
+    margin-top: 0;
+    color: white;
+    display: flex;
+}
+
+
+.img_down img,
+.img_down2 img {
+    width: 200px;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.img_down p,
+.img_down2 p {
+    margin-top: 0px;
+    padding: 10px;
+    vertical-align: middle;
+    font-family: 'Inter', sans-serif;
+}
+
+.img_down h3,
+.img_down2 h3 {
+    margin-top: 50px;
+    padding: 10px;
+    vertical-align: middle;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Cadastro */
+
+section .container {
+    align-items: flex-start;
+    padding: 24px 0;
+}
+
+#contact {
+    color: rgb(0, 0, 202);
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.social-link li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-link li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color:  rgb(0, 0, 202);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:  rgb(41, 41, 202);
+}
+
+footer {
+    background-color: #182c61;
+    color: #fff;
+    padding: 16px 0;
+}
